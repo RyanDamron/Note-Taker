@@ -1,7 +1,6 @@
 const express = require('express');
-const fs = require('fs');
-const api = require('./routes/index.js');
-const path = require('path');
+const routes = require('./routes');
+
 
 const PORT = process.env.PORT || 3001;
 
@@ -12,6 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+app.use('/', routes);
+
+app.listen(PORT, () => 
+console.log(`app listening at http://localhost:${PORT}`)
 );
