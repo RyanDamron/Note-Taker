@@ -22,7 +22,7 @@ The purpose of this app is to give users a way to write and store notes for late
 Go to the website
 
 Start the experience:
-<a href="https://us-opencourts.herokuapp.com/">US Open Courts</a>
+<a href="https://note-taker-plus.herokuapp.com/">Note Taker</a>
 
 
 # Improvement on the site
