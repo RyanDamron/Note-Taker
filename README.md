@@ -3,7 +3,7 @@
 
 
 
-# Tabel of Contents
+# Table of Contents
 1. [Title](#note-taker)
 2. [Purpose](#purpose)
 3. [Link](#link)
